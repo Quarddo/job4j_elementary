@@ -30,7 +30,7 @@ public class PointTest {
     }
 
     @Test
-    public void when11to11then2() {
+    public void when11to11then0() {
         double expected = 0;
         int x1 = 1;
         int y1 = 1;
