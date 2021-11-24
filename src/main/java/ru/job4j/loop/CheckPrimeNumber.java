@@ -9,6 +9,7 @@ public class CheckPrimeNumber {
                 break;
             }
         }
+
     return result;
     }
 }
