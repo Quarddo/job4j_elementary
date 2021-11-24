@@ -15,6 +15,7 @@ public class FactorialTest {
         Assert.assertEquals(expected, result);
     }
 
+
     @Test
     public void whenCalculateFactorialForZeroThenOne() {
         int n = 0;
