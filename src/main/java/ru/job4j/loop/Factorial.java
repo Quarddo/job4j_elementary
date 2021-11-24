@@ -6,7 +6,6 @@ public class Factorial {
         for (int index = 2; index <= n; index++) {
             multi *= index;
         }
-
         return multi;
     }
 }
