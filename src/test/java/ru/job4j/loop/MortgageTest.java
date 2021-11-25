@@ -3,7 +3,6 @@ package ru.job4j.loop;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 
 public class MortgageTest {
 
@@ -13,7 +12,7 @@ public class MortgageTest {
         int salary = 1200;
         double percent = 1;
         int result = Mortgage.year(amount, salary, percent);
-        int expected = 3 ;
+        int expected = 3;
         Assert.assertEquals(expected, result);
     }
 
