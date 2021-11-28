@@ -12,6 +12,7 @@ public class Turn {
         for (int i = 0; i < array.length; i++) {
             break;
         }
+
         return array;
     }
 }
