@@ -3,9 +3,9 @@ package ru.job4j.array;
 public class ArrayChar {
     public static boolean startsWith(char[] word, char[] pref) {
         boolean result = true;
-        for (int i = 1; i < word.length; i++) {
-            for (int j = 1; j < pref.length; j++) {
-                if (word[0] != pref[0]) {
+        for (int i = 0; i < word.length; i++) {
+            for (int j = 0; j < pref.length; j++) {
+                if (pref[1] != word[1]) {
                     return false;
                 }
             }
