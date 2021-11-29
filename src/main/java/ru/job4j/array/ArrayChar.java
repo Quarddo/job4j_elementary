@@ -10,7 +10,6 @@ public class ArrayChar {
                 }
             }
         }
-
         return true;
     }
 }
