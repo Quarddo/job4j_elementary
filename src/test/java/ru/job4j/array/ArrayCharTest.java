@@ -7,7 +7,6 @@ import static org.junit.Assert.*;
 
 public class ArrayCharTest {
 
-
     @Test
     public void whenStartWithPrefixThenTrue() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
